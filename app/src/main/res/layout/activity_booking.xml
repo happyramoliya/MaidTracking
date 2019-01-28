@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Files.BookingActivity"
+    android:orientation="vertical"
+    android:background="@drawable/final1">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/f1"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#26b42d"
+        android:gravity="center"
+        android:text="BOOK YOUR HOMEMAIDS"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:id="@+id/fromdate"
+            android:spinnerMode="dropdown"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp">
+        </Spinner>
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:id="@+id/todate"
+            android:spinnerMode="dropdown"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+        </Spinner>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/area"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/bookmobile"
+        android:textColorHint="#d9d3d3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:background="@drawable/shpe"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Book Now"
+        android:background="#26b42d"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/login"
+            android:drawablePadding="5dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:text="Login"
+            android:layout_marginLeft="90dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="40dp"
+            android:textSize="30dp"
+            android:text=" | "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:drawablePadding="5dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:text="Register"
+            android:layout_marginLeft="40dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

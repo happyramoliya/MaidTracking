@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/ic_add_alert_black_24dp"
+            android:title="OFFERS/NOTIFICATION"/>
+        <item
+            android:id="@+id/nav_servicearea"
+            android:icon="@drawable/ic_room_black_24dp"
+            android:title="SERVICE AREAS" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_rowing_black_24dp"
+            android:title="SERVICES" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="GALLERYY" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_people_outline_black_24dp"
+            android:title="ABOUT US" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_live_help_black_24dp"
+            android:title="CONTACT US" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
